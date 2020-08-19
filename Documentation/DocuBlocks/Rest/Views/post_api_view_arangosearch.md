@@ -30,8 +30,8 @@ sort direction (`"asc` for ascending, `"desc"` for descending):
 Defines how to compress the primary sort data (introduced in v3.7.1).
 ArangoDB v3.5 and v3.6 always compress the index using LZ4.
 This option is immutable.
-- `"lz4"` (default): use LZ4 fast compression.
-- `"none"`: disable compression to trade space for speed.
+  - `"lz4"` (default): use LZ4 fast compression.
+  - `"none"`: disable compression to trade space for speed.
 
 @RESTBODYPARAM{storedValues,array,optional,object}
 An array of objects to describe which document attributes to store in the View
